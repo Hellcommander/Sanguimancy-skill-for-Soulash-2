@@ -1,0 +1,16 @@
+{
+	"id": "sanguimancy_mastery",
+	"name": "Sanguimancy Mastery",
+	"requirements": {
+		"milestones": [],
+		"skill": 30
+	},
+	"rewards": [
+		{
+			"passive": "sanguimancy_mastery"
+		}
+	],
+	"skill_id": "arendeth_sanguimancy",
+	"steps": [],
+	"steps_type": 0
+}

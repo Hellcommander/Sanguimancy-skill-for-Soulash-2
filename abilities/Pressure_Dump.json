@@ -1,0 +1,36 @@
+{
+	"id": "sanguimancy_pressure_dump",
+	"name": "Pressure Dump",
+	"description": "Dump built Hypertension as armor-ignoring pressure. Deals ::damage ::damage_type plus bonus damage per Hypertension stack.",
+	"target": "aoe_tile",
+	"range": 5,
+	"effects": {
+		"damage": [
+			8,
+			14
+		],
+		"damage_type": "true",
+		"stacker_count": 1,
+		"aoe_range": 2,
+		"damage_per_stacks": 2,
+		"aoe_shape": 1
+	},
+	"effects_keys": {
+		"stacker": "",
+		"magic_power_damage": 1.1
+	},
+	"animation": "sanguimancy_vein_burst_fx",
+	"cost": {
+		"health": 0,
+		"stamina": 8
+	},
+	"cast_time": 0.75,
+	"cooldown": 10.0,
+	"skill": "arendeth_sanguimancy",
+	"slots": {
+		"offensive": 2,
+		"utility": 2
+	},
+	"duration": 0.0,
+	"image": 2
+}

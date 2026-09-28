@@ -1,0 +1,16 @@
+{
+	"id": "sanguimancy_support_vein_tap",
+	"name": "Vein Tap",
+	"requirements": {
+		"milestones": [],
+		"skill": 6
+	},
+	"rewards": [
+		{
+			"amplifier": "sanguimancy_support_vein_tap"
+		}
+	],
+	"skill_id": "arendeth_sanguimancy",
+	"steps": [],
+	"steps_type": 0
+}

@@ -1,0 +1,16 @@
+{
+	"id": "sanguimancy_support_cascade_hemorrhage",
+	"name": "Cascade Hemorrhage",
+	"requirements": {
+		"milestones": [],
+		"skill": 22
+	},
+	"rewards": [
+		{
+			"amplifier": "sanguimancy_support_cascade_hemorrhage"
+		}
+	],
+	"skill_id": "arendeth_sanguimancy",
+	"steps": [],
+	"steps_type": 0
+}

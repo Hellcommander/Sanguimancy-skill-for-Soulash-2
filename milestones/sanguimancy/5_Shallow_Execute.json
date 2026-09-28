@@ -1,0 +1,16 @@
+{
+	"id": "sanguimancy_shallow_execute",
+	"name": "Shallow Execute",
+	"requirements": {
+		"milestones": [],
+		"skill": 5
+	},
+	"rewards": [
+		{
+			"amplifier": "sanguimancy_shallow_execute"
+		}
+	],
+	"skill_id": "arendeth_sanguimancy",
+	"steps": [],
+	"steps_type": 0
+}

@@ -1,0 +1,16 @@
+{
+	"id": "sanguimancy_hairline",
+	"name": "Hairline Cut",
+	"requirements": {
+		"milestones": [],
+		"skill": 3
+	},
+	"rewards": [
+		{
+			"amplifier": "sanguimancy_hairline"
+		}
+	],
+	"skill_id": "arendeth_sanguimancy",
+	"steps": [],
+	"steps_type": 0
+}

@@ -1,0 +1,16 @@
+{
+	"id": "sanguimancy_hemorrhagic_cascade",
+	"name": "Hemorrhagic Cascade",
+	"requirements": {
+		"milestones": [],
+		"skill": 36
+	},
+	"rewards": [
+		{
+			"passive": "sanguimancy_hemorrhagic_cascade"
+		}
+	],
+	"skill_id": "arendeth_sanguimancy",
+	"steps": [],
+	"steps_type": 0
+}

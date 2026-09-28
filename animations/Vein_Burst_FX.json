@@ -1,0 +1,25 @@
+{
+	"animation": "sanguimancy_vein_burst_fx_drop",
+	"animation_origin_self": false,
+	"blocking": false,
+	"camera_shake": {
+		"bounces": 4,
+		"duration": 0.35,
+		"power": 5,
+		"type": 1
+	},
+	"chain_particles": false,
+	"id": "sanguimancy_vein_burst_fx",
+	"ignore_roof": true,
+	"name": "Vein Burst FX",
+	"random_delay": [
+		0,
+		55
+	],
+	"random_target": true,
+	"repeat": 18,
+	"sound": {
+		"id": "",
+		"volume": 100
+	}
+}

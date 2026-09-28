@@ -1,0 +1,16 @@
+{
+	"id": "sanguimancy_blood_puppetry",
+	"name": "Blood Puppetry",
+	"requirements": {
+		"milestones": [],
+		"skill": 16
+	},
+	"rewards": [
+		{
+			"ability": "sanguimancy_blood_puppetry"
+		}
+	],
+	"skill_id": "arendeth_sanguimancy",
+	"steps": [],
+	"steps_type": 0
+}

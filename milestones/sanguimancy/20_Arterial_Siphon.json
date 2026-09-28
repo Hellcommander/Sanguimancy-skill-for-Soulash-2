@@ -1,0 +1,16 @@
+{
+	"id": "sanguimancy_support_arterial_siphon",
+	"name": "Arterial Siphon",
+	"requirements": {
+		"milestones": [],
+		"skill": 20
+	},
+	"rewards": [
+		{
+			"amplifier": "sanguimancy_support_arterial_siphon"
+		}
+	],
+	"skill_id": "arendeth_sanguimancy",
+	"steps": [],
+	"steps_type": 0
+}

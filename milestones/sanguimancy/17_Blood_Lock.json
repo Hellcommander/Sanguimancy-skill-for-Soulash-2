@@ -1,0 +1,16 @@
+{
+	"id": "sanguimancy_support_blood_lock",
+	"name": "Blood Lock",
+	"requirements": {
+		"milestones": [],
+		"skill": 17
+	},
+	"rewards": [
+		{
+			"amplifier": "sanguimancy_support_blood_lock"
+		}
+	],
+	"skill_id": "arendeth_sanguimancy",
+	"steps": [],
+	"steps_type": 0
+}

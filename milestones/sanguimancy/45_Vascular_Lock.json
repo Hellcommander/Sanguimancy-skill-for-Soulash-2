@@ -1,0 +1,16 @@
+{
+	"id": "sanguimancy_support_vascular_lock",
+	"name": "Vascular Lock",
+	"requirements": {
+		"milestones": [],
+		"skill": 45
+	},
+	"rewards": [
+		{
+			"amplifier": "sanguimancy_support_vascular_lock"
+		}
+	],
+	"skill_id": "arendeth_sanguimancy",
+	"steps": [],
+	"steps_type": 0
+}

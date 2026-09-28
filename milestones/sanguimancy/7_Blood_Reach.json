@@ -1,0 +1,16 @@
+{
+	"id": "sanguimancy_blood_reach",
+	"name": "Blood Reach",
+	"requirements": {
+		"milestones": [],
+		"skill": 7
+	},
+	"rewards": [
+		{
+			"amplifier": "sanguimancy_blood_reach"
+		}
+	],
+	"skill_id": "arendeth_sanguimancy",
+	"steps": [],
+	"steps_type": 0
+}

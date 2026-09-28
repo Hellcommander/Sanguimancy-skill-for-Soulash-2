@@ -1,0 +1,11 @@
+{
+	"author": "Arendeth",
+	"description": "Sanguimancy manipulates internal pressure, vessel tension, and circulatory force. You build internal pressure through spikes and ruptures, then release it in dumps, bursts, locks, and fields. Core techniques include Capillary Rupture, Pressure Spike, Pressure Dump, Circulatory Lock, Hypertensive Field, and Bloodward, with advanced methods learned through practice or at a Sanguine Collegium",
+	"icon": "icon.png",
+	"mods_required": [
+		"core_2"
+	],
+	"name": "Sanguimancy",
+	"version": "2.9.0",
+	"thumbnail": "thumbnail.png"
+}

@@ -1,0 +1,258 @@
+[
+	{
+		"id": "sanguimancy_support_vein_tap",
+		"name": "Vein Tap",
+		"type": "offensive",
+		"image": 0,
+		"bonuses": [
+			{
+				"effect": "bleed",
+				"value": 12
+			}
+		],
+		"description": "Tap a vein. +12 bleed."
+	},
+	{
+		"id": "sanguimancy_support_organ_weakening",
+		"name": "Organ Weakening",
+		"type": "offensive",
+		"image": 1,
+		"bonuses": [
+			{
+				"effect": "vulnerable",
+				"value": 1
+			}
+		],
+		"description": "Soften the organ. Apply vulnerable."
+	},
+	{
+		"id": "sanguimancy_support_blood_lock",
+		"name": "Blood Lock",
+		"type": "utility",
+		"image": 2,
+		"bonuses": [
+			{
+				"effect": "stun",
+				"value": 1
+			}
+		],
+		"description": "Lock the heart a beat. Stun."
+	},
+	{
+		"id": "sanguimancy_support_arterial_siphon",
+		"name": "Arterial Siphon",
+		"type": "offensive",
+		"image": 3,
+		"bonuses": [
+			{
+				"effect": "damage_as_life",
+				"value": 0.04
+			}
+		],
+		"description": "Steal 4% of damage as health."
+	},
+	{
+		"id": "sanguimancy_support_cascade_hemorrhage",
+		"name": "Cascade Hemorrhage",
+		"type": "offensive",
+		"image": 4,
+		"bonuses": [
+			{
+				"effect": "bleed",
+				"value": 12
+			},
+			{
+				"effect": "chain",
+				"value": 2
+			}
+		],
+		"description": "Bleed that jumps to two nearby bodies."
+	},
+	{
+		"id": "sanguimancy_support_systolic_reservoir",
+		"name": "Systolic Reservoir",
+		"type": "utility",
+		"image": 5,
+		"cost_stamina": -2,
+		"description": "Spend 2 less stamina."
+	},
+	{
+		"id": "sanguimancy_support_execute_focus",
+		"name": "Execute Focus",
+		"type": "offensive",
+		"image": 6,
+		"bonuses": [
+			{
+				"effect": "damage_on_missing_health",
+				"value": 0.1
+			}
+		],
+		"description": "Bonus damage vs wounded targets."
+	},
+	{
+		"id": "sanguimancy_support_fortitude_weave",
+		"name": "Fortitude Weave",
+		"type": "defensive",
+		"image": 7,
+		"bonuses": [
+			{
+				"effect": "damage_reduce",
+				"value": 6
+			}
+		],
+		"description": "+6 damage reduction."
+	},
+	{
+		"id": "sanguimancy_support_rupture_mastery",
+		"name": "Rupture Mastery",
+		"type": "offensive",
+		"image": 0,
+		"bonuses": [
+			{
+				"effect": "bleed",
+				"value": 22
+			},
+			{
+				"effect": "pierce",
+				"value": 1
+			}
+		],
+		"description": "Mastered rupture: bleed and pierce."
+	},
+	{
+		"id": "sanguimancy_support_vascular_lock",
+		"name": "Thrombus",
+		"type": "utility",
+		"image": 1,
+		"bonuses": [
+			{
+				"effect": "immobilize",
+				"value": 1
+			},
+			{
+				"effect": "stun",
+				"value": 1
+			}
+		],
+		"description": "Capstone clot: immobilize and stun for 1 turn."
+	},
+	{
+		"id": "sanguimancy_hypertensive_burst",
+		"name": "Hypertensive Burst",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "damage_per_stacks",
+				"value": 3
+			}
+		],
+		"image": 2,
+		"description": "Dump Hypertension: +3 damage per stack."
+	},
+	{
+		"id": "sanguimancy_hypertensive_collapse",
+		"name": "Hypertensive Collapse",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "effect_per_stack",
+				"value": "sanguimancy_hypertension",
+				"secondary_value": "stun",
+				"third_value": 0.05
+			}
+		],
+		"image": 3,
+		"description": "Capstone: stun 0.05 turn per Hypertension stack, then consume those stacks."
+	},
+	{
+		"id": "sanguimancy_pulse_tick",
+		"name": "Pulse Tick",
+		"type": "utility",
+		"bonuses": [
+			{
+				"effect": "stacker_count",
+				"value": 1
+			}
+		],
+		"image": 4,
+		"description": "One extra Hypertension from the socketed cut."
+	},
+	{
+		"id": "sanguimancy_hairline",
+		"name": "Hairline Cut",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "bleed",
+				"value": 6
+			}
+		],
+		"image": 5,
+		"description": "A shallow hemorrhage. +6 bleed. Still worth a second offensive slot later."
+	},
+	{
+		"id": "sanguimancy_leech_thread",
+		"name": "Leech Thread",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "damage_as_life",
+				"value": 0.02
+			}
+		],
+		"image": 6,
+		"description": "Steal 2% of damage as health."
+	},
+	{
+		"id": "sanguimancy_shallow_execute",
+		"name": "Shallow Execute",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "damage_on_missing_health",
+				"value": 0.04
+			}
+		],
+		"image": 7,
+		"description": "A little extra damage against wounded prey."
+	},
+	{
+		"id": "sanguimancy_blood_reach",
+		"name": "Blood Reach",
+		"type": "utility",
+		"bonuses": [],
+		"image": 0,
+		"range": 1,
+		"description": "The vein is longer than it looks. +1 range."
+	},
+	{
+		"id": "sanguimancy_linger_pulse",
+		"name": "Linger Pulse",
+		"type": "utility",
+		"bonuses": [],
+		"image": 1,
+		"description": "Pressure fields and blood wards last 1 turn longer.",
+		"duration": 1.0
+	},
+	{
+		"id": "sanguimancy_crimson_jump",
+		"name": "Crimson Jump",
+		"type": "offensive",
+		"bonuses": [
+			{
+				"effect": "chain",
+				"value": 1
+			}
+		],
+		"image": 2,
+		"description": "The cut leaps once to a nearby body."
+	},
+	{
+		"id": "sanguimancy_systolic_trickle",
+		"name": "Systolic Trickle",
+		"type": "utility",
+		"image": 3,
+		"cost_stamina": -1,
+		"description": "The heart pays a little of the cost. -1 stamina."
+	}
+]

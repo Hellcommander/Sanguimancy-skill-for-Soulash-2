@@ -1,0 +1,34 @@
+{
+	"animation": "sanguimancy_pressure_spike_fx",
+	"cast_time": 0.75,
+	"cooldown": 0,
+	"cost": {
+		"health": 0,
+		"stamina": 4
+	},
+	"description": "Drive a spike of hydraulic pressure into a target. Deals ::damage ::damage_type (ignores armor) and opens hemorrhage that later ruptures feed on.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			3,
+			6
+		],
+		"damage_type": "true",
+		"magic_power_damage": 0.9,
+		"bleed": 8,
+		"stacker_count": 1
+	},
+	"id": "sanguimancy_pressure_spike",
+	"image": 7,
+	"name": "Pressure Spike",
+	"range": 5,
+	"skill": "arendeth_sanguimancy",
+	"slots": {
+		"offensive": 2,
+		"utility": 2
+	},
+	"target": "line",
+	"effects_keys": {
+		"stacker": ""
+	}
+}

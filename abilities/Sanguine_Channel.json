@@ -1,0 +1,30 @@
+{
+	"animation": "sanguimancy_sanguine_channel_fx",
+	"cast_time": 0.75,
+	"cooldown": 8,
+	"cost": {
+		"health": 0,
+		"stamina": 8
+	},
+	"description": "Siphon pressure. Deals ::damage ::damage_type and steals 40% as health.",
+	"duration": 0.0,
+	"effects": {
+		"damage": [
+			6,
+			10
+		],
+		"damage_type": "physical",
+		"magic_power_damage": 1.0,
+		"damage_as_life": 0.4
+	},
+	"id": "sanguimancy_sanguine_channel",
+	"image": 0,
+	"name": "Sanguine Channel",
+	"range": 5,
+	"skill": "arendeth_sanguimancy",
+	"slots": {
+		"offensive": 2,
+		"utility": 2
+	},
+	"target": "health"
+}

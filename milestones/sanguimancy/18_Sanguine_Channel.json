@@ -1,0 +1,16 @@
+{
+	"id": "sanguimancy_sanguine_channel",
+	"name": "Sanguine Channel",
+	"requirements": {
+		"milestones": [],
+		"skill": 18
+	},
+	"rewards": [
+		{
+			"ability": "sanguimancy_sanguine_channel"
+		}
+	],
+	"skill_id": "arendeth_sanguimancy",
+	"steps": [],
+	"steps_type": 0
+}

@@ -1,0 +1,16 @@
+{
+	"id": "sanguimancy_support_execute_focus",
+	"name": "Execute Focus",
+	"requirements": {
+		"milestones": [],
+		"skill": 31
+	},
+	"rewards": [
+		{
+			"amplifier": "sanguimancy_support_execute_focus"
+		}
+	],
+	"skill_id": "arendeth_sanguimancy",
+	"steps": [],
+	"steps_type": 0
+}

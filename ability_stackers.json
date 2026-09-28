@@ -1,0 +1,17 @@
+{
+  "id": "sanguimancy_Arendeth_hypertension",
+  "name": "Hypertension",
+  "description": "Blood pressure surges unnaturally. Each stack intensifies internal strain.",
+  "image": 72,
+  "skill": "arendeth_sanguimancy",
+  "target": "actor",
+  "duration": 8.0,
+  "max_stacks": 15,
+  "apply_caster": false,
+  "effects": [
+    {
+      "effect": "movement_speed",
+      "value": 0.01
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+	"id": "sanguimancy_support_systolic_reservoir",
+	"name": "Systolic Reservoir",
+	"requirements": {
+		"milestones": [],
+		"skill": 23
+	},
+	"rewards": [
+		{
+			"amplifier": "sanguimancy_support_systolic_reservoir"
+		}
+	],
+	"skill_id": "arendeth_sanguimancy",
+	"steps": [],
+	"steps_type": 0
+}

@@ -1,0 +1,31 @@
+{
+  "id": "sanguimancy_blood_puppetry.json",
+  "name": "Blood Puppetry",
+  "image": 3,
+  "animation": "120",
+  "description": "Twist the target’s blood with Sanguimancy, forcing them to strike themselves. Their self-inflicted damage becomes a magical laceration that bleeds and builds internal pressure.",
+  "skill": "arendeth_sanguimancy",
+  "cast_time": 1.5,
+  "cooldown": 14.0,
+  "range": 6,
+  "target": "actor",
+  "duration": 4.0,
+  "cost": {
+    "health": 1,
+    "stamina": 4
+  },
+  "effects_keys": {
+    "magic_power_damage": 0.7
+  },
+  "effects": {
+    "damage": [4, 8],
+    "damage_type": "true",
+
+    "hit_self": 1,
+    "disadvantage": 1,
+
+    "effect_per_stack": "",
+
+    "turn_damage_to_stacks": "sanguimancy_Blood_Laceration_Bleed"
+  }
+}

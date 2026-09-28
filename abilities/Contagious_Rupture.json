@@ -1,0 +1,33 @@
+{
+	"animation": "sanguimancy_contagious_rupture_fx",
+	"cast_time": 0.75,
+	"cooldown": 16,
+	"cost": {
+		"health": 0,
+		"stamina": 11
+	},
+	"description": "A rupture that spreads and chains to 2 nearby bodies. ::damage ::damage_type and hemorrhage.",
+	"duration": 0.0,
+	"effects": {
+		"aoe_range": 1,
+		"damage": [
+			10,
+			16
+		],
+		"damage_type": "physical",
+		"bleed": 14,
+		"magic_power_damage": 1.1,
+		"chain": 2,
+		"aoe_shape": 1
+	},
+	"id": "sanguimancy_contagious_rupture",
+	"image": 3,
+	"name": "Contagious Rupture",
+	"range": 6,
+	"skill": "arendeth_sanguimancy",
+	"slots": {
+		"offensive": 2,
+		"utility": 2
+	},
+	"target": "aoe_tile"
+}
