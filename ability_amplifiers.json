@@ -175,7 +175,7 @@
 			}
 		],
 		"image": 4,
-		"description": "One extra Hypertension from the socketed cut."
+		"description": "+1 stacker count"
 	},
 	{
 		"id": "sanguimancy_hairline",
@@ -229,9 +229,14 @@
 		"id": "sanguimancy_linger_pulse",
 		"name": "Linger Pulse",
 		"type": "utility",
-		"bonuses": [],
+		"bonuses": [
+			{
+				"effect": "aoe_range",
+				"value": 1
+			}
+		],
 		"image": 1,
-		"description": "Pressure fields and blood wards last 1 turn longer.",
+		"description": "+1 aoe range.",
 		"duration": 1.0
 	},
 	{
@@ -241,11 +246,19 @@
 		"bonuses": [
 			{
 				"effect": "chain",
-				"value": 1
+				"value": 1,
+				"effect": "bleed_per_damage",
+				"value": 1,
+				"effect": "damage",
+				"value": -1,
+				"effect": "turn_damage_to_stacks",
+				"value": "Sanguimancy_Blood_Laceration_Bleed",
+				"effect": "stacker_to_dot",
+				"value": "Sanguimancy_Blood_Laceration_Bleed",
 			}
 		],
 		"image": 2,
-		"description": "The cut leaps once to a nearby body."
+		"description": "+1 chain + 1 bleed per damage but converts your damage to a blood laceration stacks and reduces the damage by 1."
 	},
 	{
 		"id": "sanguimancy_systolic_trickle",
@@ -253,6 +266,7 @@
 		"type": "utility",
 		"image": 3,
 		"cost_stamina": -1,
-		"description": "The heart pays a little of the cost. -1 stamina."
+		"stamina": 2,
+		"description": "The heart pays a little of the cost. -1 stamina and +2 stamina."
 	}
 ]

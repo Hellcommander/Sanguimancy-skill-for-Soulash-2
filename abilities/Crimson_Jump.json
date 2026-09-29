@@ -1,0 +1,21 @@
+{
+	"animation": "sanguimancy_sanguine_channel_fx",
+	"cast_time": 0.0,
+	"cooldown": 0.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "Converts damage into a Laceration_Bleed debuff.",
+	"duration": 0.0,
+	"effects": {
+		"stacker_to_dot": "",
+		"turn_damage_to_stacks": "Sanguimancy_Blood_Laceration_Bleed"
+	},
+	"id": "arendeth_sanguimancy_Crimson_Jump",
+	"image": 10,
+	"name": "Crimson Jump",
+	"range": 0,
+	"skill": "arendeth_sanguimancy",
+	"target": ""
+}
