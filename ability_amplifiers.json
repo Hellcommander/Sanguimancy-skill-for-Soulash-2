@@ -7,10 +7,18 @@
 		"bonuses": [
 			{
 				"effect": "bleed",
-				"value": 12
+				"value": 4
+			},
+			{
+				"effect": "bleed_per_damage",
+				"value": 2
+			},
+			{
+				"effect": "damage_to_bloodlust",
+				"value": 1
 			}
 		],
-		"description": "Tap a vein. +12 bleed."
+		"description": "+4 bleed, +2 bleed per damage + 1 damage to bloodlust."
 	},
 	{
 		"id": "sanguimancy_support_organ_weakening",
@@ -20,10 +28,14 @@
 		"bonuses": [
 			{
 				"effect": "vulnerable",
-				"value": 1
+				"value": 1,
+			}
+			{
+				"effect": "damage_to_bloodlust",
+				"value": 6
 			}
 		],
-		"description": "Soften the organ. Apply vulnerable."
+		"description": "Soften the organ. Apply vulnerable but also applies damage to bloodlust of 6."
 	},
 	{
 		"id": "sanguimancy_support_blood_lock",
@@ -59,14 +71,18 @@
 		"bonuses": [
 			{
 				"effect": "bleed",
-				"value": 12
+				"value": 1
+			},
+			{
+				"effect": "bleed_per_damage",
+				"value": 2
 			},
 			{
 				"effect": "chain",
 				"value": 2
 			}
 		],
-		"description": "Bleed that jumps to two nearby bodies."
+		"description": "+1 Bleed, +2 bleed per damage, and +2 chain"
 	},
 	{
 		"id": "sanguimancy_support_systolic_reservoir",
@@ -82,12 +98,21 @@
 		"type": "offensive",
 		"image": 6,
 		"bonuses": [
+			
+			{
+				"effect": "ability_can_crit",
+				"value": 1
+			},
+			{
+				"effect": "critical_hit",
+				"value": 0.1
+			}
 			{
 				"effect": "damage_on_missing_health",
 				"value": 0.1
 			}
 		],
-		"description": "Bonus damage vs wounded targets."
+		"description": "10% Bonus damage vs wounded targets + ability to crit + 10% critical chance."
 	},
 	{
 		"id": "sanguimancy_support_fortitude_weave",
@@ -109,15 +134,15 @@
 		"image": 0,
 		"bonuses": [
 			{
-				"effect": "bleed",
-				"value": 22
+				"effect": "bleed_per_damage",
+				"value": 4
 			},
 			{
 				"effect": "pierce",
 				"value": 1
 			}
 		],
-		"description": "Mastered rupture: bleed and pierce."
+		"description": "4 bleed per damage and pierce."
 	},
 	{
 		"id": "sanguimancy_support_vascular_lock",
@@ -130,11 +155,12 @@
 				"value": 1
 			},
 			{
-				"effect": "stun",
+				"effect": "silence",
 				"value": 1
 			}
 		],
-		"description": "Capstone clot: immobilize and stun for 1 turn."
+		"description": "immobilize and silence and + 1 duration.",
+		"duration": 1.0
 	},
 	{
 		"id": "sanguimancy_hypertensive_burst",
@@ -148,21 +174,6 @@
 		],
 		"image": 2,
 		"description": "Dump Hypertension: +3 damage per stack."
-	},
-	{
-		"id": "sanguimancy_hypertensive_collapse",
-		"name": "Hypertensive Collapse",
-		"type": "offensive",
-		"bonuses": [
-			{
-				"effect": "effect_per_stack",
-				"value": "sanguimancy_Arendeth_hypertension",
-				"secondary_value": "stun",
-				"third_value": 0.05
-			}
-		],
-		"image": 3,
-		"description": "Capstone: stun 0.05 turn per Hypertension stack, then consume those stacks."
 	},
 	{
 		"id": "sanguimancy_pulse_tick",
@@ -223,7 +234,7 @@
 		"bonuses": [],
 		"image": 0,
 		"range": 1,
-		"description": "The vein is longer than it looks. +1 range."
+		"description": "+1 range."
 	},
 	{
 		"id": "sanguimancy_linger_pulse",
@@ -247,18 +258,41 @@
 			{
 				"effect": "chain",
 				"value": 1,
+			}
+			{
 				"effect": "bleed_per_damage",
 				"value": 1,
+			}
+			{
 				"effect": "damage",
 				"value": -1,
+			}
+			{
 				"effect": "turn_damage_to_stacks",
 				"value": "Sanguimancy_Blood_Laceration_Bleed",
+				"secondary_value": 0.7
+			}
+			{
 				"effect": "stacker_to_dot",
 				"value": "Sanguimancy_Blood_Laceration_Bleed",
 			}
 		],
 		"image": 2,
-		"description": "+1 chain + 1 bleed per damage but converts your damage to a blood laceration stacks and reduces the damage by 1."
+		"description": "+1 chain + 1 bleed per damage but converts your 70% of your damage to a blood laceration stacks and reduces the damage by 1."
+	},
+	
+		"id": "sanguimancy_Cardiovascular_Ascension",
+		"name": "Blood Reach",
+		"type": "utility",
+	
+				{
+				"effect": "stacker",
+				"value": "sanguimancy_Cardiovascular_Ascension_Stacker",
+				"secondary_value": 1
+			}
+		"image": 3,
+		"description": "Channel the full rhythm of your heart into magic. +12 duration and trigger on skill use a stack of Cardiovascular Ascension lasting 6 turns. Each stack (it is self cast) grants 15% lifesteal, +1 Power Up, emits 14 tiles worth of light, and converts 2% of stamina spent into health. The body glows with arterial light as pressure and vitality merge into pure strength.."
+		"duration": 10.0
 	},
 	{
 		"id": "sanguimancy_systolic_trickle",

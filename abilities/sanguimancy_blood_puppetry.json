@@ -24,8 +24,6 @@
     "hit_self": 1,
     "disadvantage": 1,
 
-    "effect_per_stack": "",
-
     "turn_damage_to_stacks": "sanguimancy_Blood_Laceration_Bleed"
   }
 }

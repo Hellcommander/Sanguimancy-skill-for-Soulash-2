@@ -6,10 +6,12 @@
 		"health": 0,
 		"stamina": 0
 	},
-	"description": "Deals half of damage as 1 true damage and the other as bleed scaling damage.",
+	"description": "Deals half of damage as 1 true damage and the other as bleed scaling damage. Has a 5% chance to critical hit.",
 	"duration": 6.0,
 	"effects": {
+		"ability_can_crit": 1,
 		"bleed_per_damage": 1.0,
+		"critical_hit_chance": 0.05000000074505806,
 		"damage": [
 			1,
 			1

@@ -124,15 +124,20 @@
 		"threesixty": true
 	},
 	"skills": {
+		"max_skill": 0,
 		"milestones": [
-			"core_2_track_animals",
-			"core_2_ignore_party",
+			"core_2_analyze_speed",
 			"core_2_analyze_weakness",
-			"core_2_strength_in_numbers"
+			"core_2_find_weakness",
+			"core_2_ignore_party",
+			"core_2_strength_in_numbers",
+			"core_2_tame_animal",
+			"core_2_track_animals",
+			"core_2_disable_consumption"
 		],
 		"skills": [
-			"core_2_leadership",
-			"core_2_hunting"
+			"core_2_hunting",
+			"core_2_leadership"
 		]
 	},
 	"stamina": {

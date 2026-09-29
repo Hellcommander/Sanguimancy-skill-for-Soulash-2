@@ -26,7 +26,7 @@
 		"stacker": "arendeth_sanguimancy_Laceration_Bleed_damage_trigger"
 	},
 	"id": "arendeth_sanguimancy_Sanguine_Revenge_Counter_Explosion",
-	"image": 398,
+	"image": 8,
 	"name": "Sanguine Revenge Counter Explosion",
 	"range": 1,
 	"skill": "arendeth_sanguimancy",
