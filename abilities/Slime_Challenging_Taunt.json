@@ -1,0 +1,22 @@
+{
+	"animation": "169",
+	"cast_time": 0.0,
+	"cooldown": 5.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "Swap places with your target, push them aside, and retreat while leaving a blood‑spawn behind. The disruption enrages them for a short time.",
+	"duration": 2.0,
+	"effects": {
+		"challenge": 1,
+		"move_to_side": 1,
+		"trade_places": 1
+	},
+	"id": "changeme_template_Slime_Challenging_Taunt",
+	"image": 384,
+	"name": "Slime Challenging Taunt",
+	"range": 1,
+	"skill": "",
+	"target": "horizontal_line"
+}

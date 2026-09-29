@@ -1,0 +1,21 @@
+{
+	"animation": "123",
+	"cast_time": 0.10000000149011612,
+	"cooldown": 20.0,
+	"cost": {
+		"health": 0,
+		"stamina": 2
+	},
+	"description": "",
+	"duration": 1.0,
+	"effects": {
+		"ignore_party": 1,
+		"revenge_counter": 1
+	},
+	"id": "changeme_template_Slime_Revenge_Counter",
+	"image": 133,
+	"name": "Slime Revenge Counter",
+	"range": 0,
+	"skill": "",
+	"target": "self"
+}

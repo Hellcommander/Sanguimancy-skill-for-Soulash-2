@@ -1,0 +1,38 @@
+{
+	"animation": "sanguimancy_blood_wave_fx",
+	"cast_time": 0.0,
+	"cooldown": 0.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "Explosion triggers based on 2x + revenge counter the damage of the last 5 hits",
+	"duration": 0.0,
+	"effects": {
+		"ability_can_crit": 1,
+		"aoe_break": 0,
+		"aoe_range": 3,
+		"aoe_shape": 3,
+		"break_armor": 1,
+		"critical_hit_chance": 0.10000000149011612,
+		"damage": [
+			0,
+			0
+		],
+		"damage_type": "true",
+		"ignore_party": 1,
+		"magic_power_damage": 1.0,
+		"revenge_counter": 2,
+		"stacker": "arendeth_sanguimancy_Laceration_Bleed_damage_trigger"
+	},
+	"id": "arendeth_sanguimancy_Sanguine_Revenge_Counter_Explosion",
+	"image": 398,
+	"name": "Sanguine Revenge Counter Explosion",
+	"range": 1,
+	"skill": "arendeth_sanguimancy",
+	"slots": {
+		"offensive": 2,
+		"utility": 2
+	},
+	"target": "aoe_tile"
+}

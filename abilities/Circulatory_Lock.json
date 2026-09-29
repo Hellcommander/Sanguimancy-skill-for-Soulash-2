@@ -17,7 +17,7 @@
     "damage_type": "true",
     "magic_power_damage": 1.0,
     "immobilize": 1,
-    "stacker": "",
+    "stacker": "sanguimancy_Arendeth_hypertension",
     "stacker_count": 1
   }
 }

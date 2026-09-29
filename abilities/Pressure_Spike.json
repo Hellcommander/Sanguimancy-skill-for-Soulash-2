@@ -1,34 +1,34 @@
 {
 	"animation": "sanguimancy_pressure_spike_fx",
-	"cast_time": 0.75,
-	"cooldown": 0,
+	"cast_time": 0.800000011920929,
+	"cooldown": 7.0,
 	"cost": {
 		"health": 0,
-		"stamina": 4
+		"stamina": 0
 	},
-	"description": "Drive a spike of hydraulic pressure into a target. Deals ::damage ::damage_type (ignores armor) and opens hemorrhage that later ruptures feed on.",
+	"description": "Drive a spike of hydraulic pressure into in a line to a target. Deals ::damage ::damage_type (ignores armor) and builds up pressurised blood magic that can later release if those stacks build to much dealing damage based on last 5 hits when it releases. The magic will skip inflicting damage on party members. This inflicts 2 bleed stacks for every damage this does and for every hypertension stack on the targets it does 2 more damage.",
 	"duration": 0.0,
 	"effects": {
+		"bleed_per_damage": 2.0,
 		"damage": [
-			3,
-			6
+			4,
+			8
 		],
+		"damage_per_stacks": 2,
 		"damage_type": "true",
+		"ignore_party": 1,
 		"magic_power_damage": 0.9,
-		"bleed": 8,
+		"stacker": "sanguimancy_Arendeth_hypertension",
 		"stacker_count": 1
 	},
-	"id": "sanguimancy_pressure_spike",
-	"image": 7,
+	"id": "arendeth_sanguimancy_Pressure_Spike",
+	"image": 838,
 	"name": "Pressure Spike",
 	"range": 5,
 	"skill": "arendeth_sanguimancy",
 	"slots": {
-		"offensive": 2,
+		"offensive": 3,
 		"utility": 2
 	},
-	"target": "line",
-	"effects_keys": {
-		"stacker": ""
-	}
+	"target": "line_health"
 }

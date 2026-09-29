@@ -3,7 +3,7 @@
   "name": "Capillary Rupture",
   "animation": "sanguimancy_capillary_fx",
   "image": 1,
-"description": "Force volatile blood pressure into the target’s vessels, compelling them to twitch aside before unleashing a rupturing strike. Their next attack inflicts Blood Laceration Bleed and steals life, turning minions, corrupted foes, or expendable allies into instruments of dark blood magic.",
+  "description": "Force volatile blood pressure into the target’s vessels, compelling them to twitch aside before unleashing a rupturing strike. Their next attack inflicts Blood Laceration Bleed and steals life, turning minions, corrupted foes, or expendable allies into instruments of dark blood magic.",
   "skill": "arendeth_sanguimancy",
   "cast_time": 0.75,
   "cooldown": 3,

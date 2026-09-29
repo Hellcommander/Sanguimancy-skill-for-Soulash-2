@@ -1,0 +1,28 @@
+{
+	"animation": "core_2_Sap_Eruption",
+	"cast_time": 1.0,
+	"cooldown": 10.0,
+	"cost": {
+		"health": 1,
+		"stamina": 1
+	},
+	"description": "Make use of blood to throw a poisonous liquid at a target",
+	"duration": 3.0,
+	"effects": {
+		"damage": [
+			2,
+			5
+		],
+		"damage_type": "poison",
+		"ignore_party": 1,
+		"stacker_count": 1,
+		"stacker_to_dot": "",
+		"turn_damage_to_stacks": "98"
+	},
+	"id": "changeme_template_Toxic_Slime_Blood_Volley",
+	"image": 7,
+	"name": "Toxic Slime Blood Volley",
+	"range": 3,
+	"skill": "",
+	"target": "health"
+}

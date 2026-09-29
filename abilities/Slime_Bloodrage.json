@@ -1,0 +1,23 @@
+{
+	"animation": "13",
+	"cast_time": 0.20000000298023224,
+	"cooldown": 8.0,
+	"cost": {
+		"health": 1,
+		"stamina": 1
+	},
+	"description": "",
+	"duration": 6.0,
+	"effects": {
+		"ability_can_crit": 1,
+		"critical_hit_chance": 6.0,
+		"damage_to_bloodlust": 3.0,
+		"power_up": 1
+	},
+	"id": "changeme_template_Slime_Bloodrage",
+	"image": 7,
+	"name": "Slime Bloodrage",
+	"range": 0,
+	"skill": "",
+	"target": ""
+}

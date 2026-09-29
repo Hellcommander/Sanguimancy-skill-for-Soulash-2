@@ -1,0 +1,29 @@
+{
+	"animation": "120",
+	"cast_time": 0.0,
+	"cooldown": 0.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "",
+	"duration": 0.0,
+	"effects": {
+		"ability_can_crit": 1,
+		"damage": [
+			1,
+			1
+		],
+		"damage_type": "true",
+		"ignore_party": 1,
+		"magic_power_damage": 1.0,
+		"stacker": "Sanguimancy_Blood_Laceration_Bleed",
+		"turn_damage_to_stacks": "Sanguimancy_Blood_Laceration_Bleed"
+	},
+	"id": "arendeth_sanguimancy_Laceration_Bleed_damage_trigger",
+	"image": 1,
+	"name": "Laceration Bleed damage trigger",
+	"range": 0,
+	"skill": "arendeth_sanguimancy",
+	"target": "health"
+}

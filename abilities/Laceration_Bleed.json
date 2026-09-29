@@ -1,0 +1,30 @@
+{
+	"animation": "120",
+	"cast_time": 0.0,
+	"cooldown": 0.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "Deals half of damage as 1 true damage and the other as bleed scaling damage.",
+	"duration": 6.0,
+	"effects": {
+		"bleed_per_damage": 1.0,
+		"damage": [
+			1,
+			1
+		],
+		"damage_type": "true",
+		"magic_power_damage": 1.0
+	},
+	"id": "Sanguimancy_Blood_Laceration_Bleed",
+	"image": 1,
+	"name": "Laceration Bleed",
+	"range": 0,
+	"skill": "arendeth_sanguimancy",
+	"slots": {
+		"offensive": 2,
+		"utility": 1
+	},
+	"target": "health"
+}

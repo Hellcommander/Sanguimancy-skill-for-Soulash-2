@@ -1,0 +1,29 @@
+{
+	"animation": "sanguimancy_heart_implosion_fx",
+	"cast_time": 2.200000047683716,
+	"cooldown": 60.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "Ritualize an enemy into your blood puppet. For 8 turns the target fights for you while its blood pressure rises. When stacks the target will also rupture dealing damage releasing stored fury of the last 5 hits taken as a bloody detonation.",
+	"duration": 9.0,
+	"effects": {
+		"corrupt": 1,
+		"damage_to_bloodlust": 2.0,
+		"power_up": 3,
+		"stacker": "arendeth_sanguimancy_Sanguine_Revenge_Counter_Explosion",
+		"stacker_count": 1,
+		"vulnerable": 1
+	},
+	"id": "arendeth_sanguimancy_Sanguine_Corruption",
+	"image": 254,
+	"name": "Sanguine Corruption",
+	"range": 6,
+	"skill": "arendeth_sanguimancy",
+	"slots": {
+		"offensive": 2,
+		"utility": 3
+	},
+	"target": "health"
+}

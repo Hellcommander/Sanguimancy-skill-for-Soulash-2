@@ -1,0 +1,177 @@
+{
+	"ability_user": [
+		"98",
+		"changeme_template_Slime_Bloodrage",
+		"changeme_template_Slime_Challenging_Taunt",
+		"changeme_template_Slime_Revenge_Counter",
+		"changeme_template_Slime_tendril_Disarm",
+		"changeme_template_Toxic_Slime_Blood_Volley",
+		"changeme_template_Slime_Charge"
+	],
+	"armor": {
+		"acid": 16,
+		"death": 10,
+		"electricity": 6,
+		"fire": 7,
+		"frost": 0,
+		"holy": 0,
+		"parry": 0,
+		"physical": 20,
+		"poison": 30,
+		"thorns": 1
+	},
+	"artificial_intelligence": {
+		"allies": [
+			"5"
+		],
+		"allow_production": [],
+		"behaviors": [
+			12,
+			3
+		],
+		"enemies": []
+	},
+	"components": [
+		"ability_user",
+		"actor",
+		"armor",
+		"artificial_intelligence",
+		"collidable",
+		"equipment",
+		"experience_gainer",
+		"fighter",
+		"glyph",
+		"health",
+		"minimap_pixel",
+		"moveable",
+		"name",
+		"position_2d",
+		"sight",
+		"skills",
+		"stamina",
+		"statistics",
+		"tags"
+	],
+	"corpse": [],
+	"description": "Small slime driven by blood corrupted with magic.",
+	"equipment": {
+		"disabled_slots": [
+			0,
+			2,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17
+		]
+	},
+	"experience_gainer": {
+		"exp": 3,
+		"level": 20
+	},
+	"fighter": {
+		"attackNames": [
+			"tendril hit"
+		]
+	},
+	"glyph": {
+		"frames": [
+			{
+				"color": [
+					255,
+					0,
+					0
+				],
+				"delay": 2000,
+				"index": 2754
+			},
+			{
+				"color": [
+					255,
+					0,
+					0
+				],
+				"delay": 2000,
+				"index": 2755
+			}
+		],
+		"random_frame_start": true
+	},
+	"health": 120,
+	"id": "changeme_template_Blood_Slime",
+	"minimap_pixel": [
+		117,
+		0,
+		0
+	],
+	"moveable": {
+		"speed": 0.8999999761581421
+	},
+	"name": "Blood Slime",
+	"sight": {
+		"ignore_infra_penalty": true,
+		"infravision": true,
+		"range": 8,
+		"threesixty": true
+	},
+	"skills": {
+		"milestones": [
+			"core_2_track_animals",
+			"core_2_ignore_party",
+			"core_2_analyze_weakness",
+			"core_2_strength_in_numbers"
+		],
+		"skills": [
+			"core_2_leadership",
+			"core_2_hunting"
+		]
+	},
+	"stamina": {
+		"fatigue": 130,
+		"stamina": 130,
+		"stamina_regen": 1.0
+	},
+	"statistics": {
+		"bleed": 30,
+		"burn": 3,
+		"dexterity": [
+			10,
+			14
+		],
+		"endurance": [
+			15,
+			20
+		],
+		"health_regen": 1.0,
+		"health_regen_tick": 6.0,
+		"hearing": 18,
+		"intelligence": [
+			14,
+			16
+		],
+		"magic_power": 8,
+		"poison": 35,
+		"sneaking": 12,
+		"strength": [
+			10,
+			14
+		],
+		"willpower": [
+			14,
+			15
+		]
+	},
+	"tags": [
+		"9",
+		"3"
+	]
+}

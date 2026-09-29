@@ -9,12 +9,6 @@
 				"value": "bleed",
 				"secondary_value": 0.25
 			},
-						{
-				"effect": "on_damage_type_stack",
-                "value": "Blood_Laceration_Bleed",
-                "secondary_value": "true"
-			},
-			
 			{
 				"effect": "death_under_effect_gain_stamina",
 				"value": "bleed",
@@ -49,7 +43,7 @@
 		"effects": [
 			{
 				"effect": "on_attack_cast",
-				"value": "sanguimancy_pressure_spike",
+				"value": "arendeth_sanguimancy_Pressure_Spike",
 				"secondary_value": 1.0
 			}
 		]

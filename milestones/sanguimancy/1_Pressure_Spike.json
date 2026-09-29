@@ -1,5 +1,5 @@
 {
-	"id": "sanguimancy_pressure_spike",
+	"id": "arendeth_sanguimancy_Pressure_Spike",
 	"name": "Pressure Spike",
 	"requirements": {
 		"milestones": [],
@@ -7,7 +7,7 @@
 	},
 	"rewards": [
 		{
-			"ability": "sanguimancy_pressure_spike"
+			"ability": "arendeth_sanguimancy_Pressure_Spike"
 		}
 	],
 	"skill_id": "arendeth_sanguimancy",

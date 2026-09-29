@@ -156,7 +156,7 @@
 		"bonuses": [
 			{
 				"effect": "effect_per_stack",
-				"value": "sanguimancy_hypertension",
+				"value": "sanguimancy_Arendeth_hypertension",
 				"secondary_value": "stun",
 				"third_value": 0.05
 			}

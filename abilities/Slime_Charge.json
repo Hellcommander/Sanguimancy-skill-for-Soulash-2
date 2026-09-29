@@ -1,0 +1,29 @@
+{
+	"animation": "12",
+	"cast_time": 0.0,
+	"cooldown": 0.0,
+	"cost": {
+		"health": 0,
+		"stamina": 3
+	},
+	"description": "",
+	"duration": 0.0,
+	"effects": {
+		"charge": 2,
+		"damage": [
+			2,
+			4
+		],
+		"damage_per_stacks": 1,
+		"damage_type": "poison",
+		"magic_power_damage": 1.0,
+		"rollback": 1,
+		"stacker": "core_2_Ice_Age",
+		"stacker_count": 1
+	},
+	"id": "changeme_template_Slime_Charge",
+	"name": "Slime Charge",
+	"range": 0,
+	"skill": "",
+	"target": ""
+}

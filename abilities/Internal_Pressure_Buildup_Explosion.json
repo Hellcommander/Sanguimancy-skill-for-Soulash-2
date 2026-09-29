@@ -1,0 +1,39 @@
+{
+	"animation": "185",
+	"cast_time": 0.0,
+	"cooldown": 0.0,
+	"cost": {
+		"health": 0,
+		"stamina": 0
+	},
+	"description": "Internal pressure accumulates, slightly hindering movement. At 15 stacks it bursts, striking nearby enemies with a retaliatory shockwave that applies stun, fear, immobilize, expose while ignoring dodge, and damage equal to the they suffered in the last 5 hits (ignores harming party members).",
+	"duration": 2.0,
+	"effects": {
+		"always_hit": 1,
+		"aoe_break": 0,
+		"aoe_range": 1,
+		"aoe_shape": 1,
+		"damage": [
+			0,
+			0
+		],
+		"damage_receive_bonus_percent": 0.0,
+		"damage_type": "true",
+		"fear": 1,
+		"ignore_party": 1,
+		"immobilize": 1,
+		"magic_power_damage": 1.0,
+		"revenge_counter": 1,
+		"stun": 2.0
+	},
+	"id": "arendeth_sanguimancy_Internal_Pressure_Buildup_Explosion",
+	"image": 827,
+	"name": "Internal Pressure Buildup Explosion",
+	"range": 1,
+	"skill": "arendeth_sanguimancy",
+	"slots": {
+		"offensive": 3,
+		"utility": 1
+	},
+	"target": "aoe_tile"
+}
