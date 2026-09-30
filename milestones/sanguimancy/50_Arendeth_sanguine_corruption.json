@@ -1,5 +1,5 @@
 {
-	"id": "Arendeth_sanguine_corruption",
+	"id": "arendeth_sanguimancy_Sanguine_Corruption",
 	"name": "Sanguine Corruption",
 	"requirements": {
 		"milestones": [],
@@ -7,7 +7,7 @@
 	},
 	"rewards": [
 		{
-			"ability": "sanguimancy_Arendeth_sanguine_corruption"
+			"ability": "arendeth_sanguimancy_Sanguine_Corruption"
 		}
 	],
 	"skill_id": "arendeth_sanguimancy",

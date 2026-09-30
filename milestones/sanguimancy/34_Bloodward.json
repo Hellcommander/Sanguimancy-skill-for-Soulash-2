@@ -1,5 +1,5 @@
 {
-	"id": "sanguimancy_bloodward",
+	"id": "arendeth_sanguimancy_Bloodward",
 	"name": "Bloodward",
 	"requirements": {
 		"milestones": [],
@@ -7,7 +7,7 @@
 	},
 	"rewards": [
 		{
-			"ability": "sanguimancy_bloodward"
+			"ability": "arendeth_sanguimancy_Bloodward"
 		}
 	],
 	"skill_id": "arendeth_sanguimancy",

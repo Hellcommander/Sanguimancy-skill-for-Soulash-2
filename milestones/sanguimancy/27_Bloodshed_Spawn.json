@@ -1,5 +1,5 @@
 {
-	"id": "arendeth_sanguimancy_bloodshed_spawn",
+	"id": "arendeth_sanguimancy_Bloodshed_Spawn",
 	"name": "",
 	"requirements": {
 		"milestones": [],
@@ -7,7 +7,7 @@
 	},
 	"rewards": [
 		{
-			"ability": ""
+			"ability": "arendeth_sanguimancy_Bloodshed_Spawn"
 		}
 	],
 	"skill_id": "arendeth_sanguimancy",

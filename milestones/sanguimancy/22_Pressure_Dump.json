@@ -1,5 +1,5 @@
 {
-	"id": "sanguimancy_pressure_dump",
+	"id": "arendeth_sanguimancy_Pressure_Dump",
 	"name": "Pressure Dump",
 	"requirements": {
 		"milestones": [],
@@ -7,7 +7,7 @@
 	},
 	"rewards": [
 		{
-			"ability": "sanguimancy_pressure_dump"
+			"ability": "arendeth_sanguimancy_Pressure_Dump"
 		}
 	],
 	"skill_id": "arendeth_sanguimancy",

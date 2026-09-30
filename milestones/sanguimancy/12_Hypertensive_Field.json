@@ -1,5 +1,5 @@
 {
-	"id": "sanguimancy_hypertensive_field",
+	"id": "arendeth_sanguimancy_Hypertensive_Field",
 	"name": "Hypertensive Field",
 	"requirements": {
 		"milestones": [],
@@ -7,7 +7,7 @@
 	},
 	"rewards": [
 		{
-			"ability": "sanguimancy_hypertensive_field"
+			"ability": "arendeth_sanguimancy_Hypertensive_Field"
 		}
 	],
 	"skill_id": "arendeth_sanguimancy",
