@@ -6,7 +6,7 @@
 		"health": 0,
 		"stamina": 10
 	},
-	"description": "Raise internal pressure in an area for ::damage ::damage_type damage and apply debuffs. Each cast adds 2 Hypertension stacks; at 15 stacks the built‑up strain erupts in an AoE around the afflicted target, dealing additional retaliation damage equal to the total damage taken from their last five hits and applying bleed, armor break, stamina burn, disadvantage, and magic‑scaled damage to enemies only.",
+	"description": "Raise internal pressure in an area for ::damage ::damage_type damage and apply debuffs. Each cast adds 2 Hypertension stacks; at 15 stacks the built\u2011up strain erupts in an AoE around the afflicted target, dealing additional retaliation damage equal to the total damage taken from their last five hits and applying bleed, armor break, stamina burn, disadvantage, and magic\u2011scaled damage to enemies only.",
 	"duration": 0.0,
 	"effects": {
 		"ability_can_crit": 1,

@@ -19,5 +19,6 @@
 	"name": "Slime Bloodrage",
 	"range": 0,
 	"skill": "",
-	"target": ""
+	"target": "",
+	"_file": "Slime_Bloodrage.json"
 }

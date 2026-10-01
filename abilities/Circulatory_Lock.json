@@ -1,23 +1,32 @@
 {
-  "id": "sanguimancy_circulatory_lock",
-  "name": "Circulatory Lock",
-  "animation": "sanguimancy_blood_wave_fx",
-  "image": 2,
-  "description": "Clamp the target’s circulation with crushing blood pressure, rupturing tissue with magic‑scaled force and inducing Hypertension. The shock locks their body in place.",
-  "skill": "arendeth_sanguimancy",
-  "cast_time": 0.75,
-  "cooldown": 14,
-  "range": 5,
-  "target": "health",
-  "duration": 8.0,
-  "cost": { "health": 0, "stamina": 9 },
-  "slots": { "offensive": 2, "utility": 1 },
-  "effects": {
-    "damage": [8, 12],
-    "damage_type": "true",
-    "magic_power_damage": 1.0,
-    "immobilize": 1,
-    "stacker": "sanguimancy_Arendeth_hypertension",
-    "stacker_count": 1
-  }
+	"id": "sanguimancy_circulatory_lock",
+	"name": "Circulatory Lock",
+	"animation": "sanguimancy_blood_wave_fx",
+	"image": 2,
+	"description": "Clamp the target\u2019s circulation with crushing blood pressure, rupturing tissue with magic\u2011scaled force and inducing Hypertension. The shock locks their body in place.",
+	"skill": "arendeth_sanguimancy",
+	"cast_time": 0.75,
+	"cooldown": 14,
+	"range": 5,
+	"target": "health",
+	"duration": 8.0,
+	"cost": {
+		"health": 0,
+		"stamina": 9
+	},
+	"slots": {
+		"offensive": 2,
+		"utility": 1
+	},
+	"effects": {
+		"damage": [
+			8,
+			12
+		],
+		"damage_type": "true",
+		"magic_power_damage": 1.0,
+		"immobilize": 1,
+		"stacker": "sanguimancy_Arendeth_hypertension",
+		"stacker_count": 1
+	}
 }

@@ -1,5 +1,5 @@
 {
-	"id": "arendeth_sanguimancy_Cardiovascular_Ascension",
+	"id": "sanguimancy_cardiovascular_ascension",
 	"name": "Cardiovascular Ascension",
 	"requirements": {
 		"milestones": [],
@@ -7,7 +7,7 @@
 	},
 	"rewards": [
 		{
-			"amplifier": "arendeth_sanguimancy_Cardiovascular_Ascension",
+			"amplifier": "sanguimancy_cardiovascular_ascension"
 		}
 	],
 	"skill_id": "arendeth_sanguimancy",

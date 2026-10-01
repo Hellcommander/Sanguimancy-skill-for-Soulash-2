@@ -6,7 +6,7 @@
 		"health": 0,
 		"stamina": 3
 	},
-	"description": "",
+	"description": "Charges deals ::damage ::damage_type damage then rolls back while inflicting stacker",
 	"duration": 0.0,
 	"effects": {
 		"charge": 2,
@@ -26,5 +26,6 @@
 	"name": "Slime Charge",
 	"range": 0,
 	"skill": "",
-	"target": ""
+	"target": "",
+	"_file": "Slime_Charge.json"
 }

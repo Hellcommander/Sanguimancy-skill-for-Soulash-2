@@ -17,5 +17,6 @@
 	"name": "Slime Revenge Counter",
 	"range": 0,
 	"skill": "",
-	"target": "self"
+	"target": "self",
+	"_file": "Slime_Revenge_Counter.json"
 }

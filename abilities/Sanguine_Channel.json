@@ -26,5 +26,6 @@
 		"offensive": 2,
 		"utility": 2
 	},
-	"target": "health"
+	"target": "health",
+	"_file": "Sanguine_Channel.json"
 }

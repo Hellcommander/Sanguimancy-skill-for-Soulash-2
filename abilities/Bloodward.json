@@ -6,7 +6,7 @@
 		"health": 1,
 		"stamina": 4
 	},
-	"description": "Harden your blood into a regenerative ward. While active, you siphon  x life from all damage you deal. When shared, allies gain the same blood‑leech effect.",
+	"description": "Harden your blood into a regenerative ward. While active, you siphon  x life from all damage you deal. When shared, allies gain the same blood\u2011leech effect.",
 	"duration": 10.0,
 	"effects": {
 		"damage_as_life": 0.10000000149011612,

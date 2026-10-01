@@ -1,32 +1,32 @@
 {
-  "id": "sanguimancy_capillary_rupture",
-  "name": "Capillary Rupture",
-  "animation": "sanguimancy_capillary_fx",
-  "image": 1,
-  "description": "Force volatile blood pressure into the target’s vessels, compelling them to twitch aside before unleashing a rupturing strike. Their next attack inflicts Blood Laceration Bleed and steals life, turning minions, corrupted foes, or expendable allies into instruments of dark blood magic.",
-  "skill": "arendeth_sanguimancy",
-  "cast_time": 0.75,
-  "cooldown": 3,
-  "range": 5,
-  "target": "actor",
-  "duration": 1.0,
-  "cost": {
-    "health": 0,
-    "stamina": 5
-  },
-  "slots": {
-    "offensive": 2,
-    "utility": 2
-  },
-  "effects": {
-    "remove_on_next_ability": 1,
-    "damage_bonus_percent": 20.0,
-    "magic_power_damage": 1.0,
-    "stacker_count": 1,
-    "stacker": "sanguimancy_Blood_Laceration_Bleed",
-    "bleed_per_damage": 0.25,
-    "ability_can_crit": 1,
-	"move_to_side": 1,
-    "damage_as_life": 0.05
-  }
+	"id": "sanguimancy_capillary_rupture",
+	"name": "Capillary Rupture",
+	"animation": "sanguimancy_capillary_fx",
+	"image": 1,
+	"description": "Force volatile blood pressure into the target\u2019s vessels, compelling them to twitch aside before unleashing a rupturing strike ::damage ::damage_type inflicting a magically dealth Blood Laceration (half of a bleed but it scales with magic power in total number of bleed stacks based on damage) and steals life, turning minions, corrupted foes, or expendable allies into instruments of dark blood magic.",
+	"skill": "arendeth_sanguimancy",
+	"cast_time": 0.75,
+	"cooldown": 3,
+	"range": 5,
+	"target": "actor",
+	"duration": 1.0,
+	"cost": {
+		"health": 0,
+		"stamina": 5
+	},
+	"slots": {
+		"offensive": 2,
+		"utility": 2
+	},
+	"effects": {
+		"remove_on_next_ability": 1,
+		"damage_bonus_percent": 20.0,
+		"magic_power_damage": 1.0,
+		"stacker_count": 1,
+		"stacker": "sanguimancy_Blood_Laceration_Bleed",
+		"bleed_per_damage": 0.25,
+		"ability_can_crit": 1,
+		"move_to_side": 1,
+		"damage_as_life": 0.05
+	}
 }

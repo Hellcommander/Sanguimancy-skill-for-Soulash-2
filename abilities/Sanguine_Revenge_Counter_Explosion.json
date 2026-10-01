@@ -13,7 +13,7 @@
 		"aoe_break": 0,
 		"aoe_range": 3,
 		"aoe_shape": 3,
-		"break_armor": 1,
+		"resistance": 1,
 		"critical_hit_chance": 0.10000000149011612,
 		"damage": [
 			0,
@@ -34,5 +34,6 @@
 		"offensive": 2,
 		"utility": 2
 	},
-	"target": "aoe_tile"
+	"target": "aoe_tile",
+	"_file": "Sanguine_Revenge_Counter_Explosion.json"
 }
