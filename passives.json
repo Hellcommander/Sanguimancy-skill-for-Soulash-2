@@ -1,5 +1,53 @@
 [
 	{
+		"id": "sanguimancy_vascular_overpressure",
+		"name": "Vascular Overpressure",
+		"image": 5,
+		"effects": [
+			{
+				"effect": "damage_to_effect",
+				"value": "bleed",
+				"secondary_value": 0.02
+			}
+		]
+	},
+	{
+		"id": "sanguimancy_hemorrhagic_intensification",
+		"name": "Hemorrhagic Intensification",
+		"image": 6,
+		"effects": [
+			{
+				"effect": "increase_effect_value",
+				"value": "bleed",
+				"secondary_value": 0.15
+			}
+		]
+	},
+	{
+		"id": "sanguimancy_pulse_rebound",
+		"name": "Pulse Rebound",
+		"image": 8,
+		"effects": [
+			{
+				"effect": "stamina_on_stack_consume",
+				"value": "bleed",
+				"secondary_value": 2
+			}
+		]
+	},
+	{
+		"id": "sanguimancy_rupture_feedback",
+		"name": "Rupture Feedback",
+		"image": 9,
+		"effects": [
+			{
+				"effect": "hit_self",
+				"value": 0.01,
+				"secondary_value": "bleed"
+			}
+		]
+	},
+	{
 		"id": "sanguimancy_hemorrhagic_cascade",
 		"name": "Hemorrhagic Cascade",
 		"image": 0,

@@ -1,0 +1,16 @@
+{
+	"id": "sanguimancy_hemorrhagic_intensification",
+	"name": "Hemorrhagic Intensification",
+	"requirements": {
+		"milestones": [],
+		"skill": 26
+	},
+	"rewards": [
+		{
+			"passive": "sanguimancy_hemorrhagic_intensification"
+		}
+	],
+	"skill_id": "arendeth_sanguimancy",
+	"steps": [],
+	"steps_type": 0
+}

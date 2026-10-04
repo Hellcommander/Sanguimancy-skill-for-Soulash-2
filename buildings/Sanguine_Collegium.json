@@ -10,8 +10,8 @@
 
   "max": 1,
   "tier": 3,
-  "type": "military",
-  "group": "military",
+  "type": "magic",
+  "group": "arcane",
   "allow_player": true,
 
   "occupation": "457",
@@ -39,7 +39,8 @@
     {
       "takes": "craftable",
       "entities": [
-        { "id": "2006", "daily": 0.2 }
+        { "id": "arendeth_sanguimancy_pressure_tome", "daily": 0.1 },
+        { "id": "arendeth_sanguimancy_blood_focus", "daily": 0.05 }
       ]
     }
   ],
@@ -55,7 +56,7 @@
     },
     {
       "component": "resting_place",
-      "count": 6
+      "count": 4
     },
     {
       "component": "container",
@@ -63,13 +64,17 @@
     },
     {
       "component": "light_source",
-      "count": 6
+      "count": 8
     },
     {
-      "component": "crafting_station",
+      "component": "ritual_station",
+      "count": 2
+    },
+    {
+      "component": "library",
       "count": 2
     }
   ],
 
-  "min_area": 45
+  "min_area": 55
 }

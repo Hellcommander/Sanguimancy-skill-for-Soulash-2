@@ -1,0 +1,16 @@
+{
+	"id": "sanguimancy_pulse_rebound",
+	"name": "Pulse Rebound",
+	"requirements": {
+		"milestones": [],
+		"skill": 28
+	},
+	"rewards": [
+		{
+			"passive": "sanguimancy_pulse_rebound"
+		}
+	],
+	"skill_id": "arendeth_sanguimancy",
+	"steps": [],
+	"steps_type": 0
+}
