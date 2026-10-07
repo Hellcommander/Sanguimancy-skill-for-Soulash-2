@@ -125,7 +125,7 @@
 	},
 	"name": "Hemoprax Adept",
 	"persona": {
-		"occupation": "Hemoprax Adept"
+		"occupation": "Hemoprax_Adept"
 	},
 	"sight": {
 		"ignore_infra_penalty": false,
