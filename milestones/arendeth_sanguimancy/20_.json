@@ -1,13 +1,13 @@
 {
-	"id": "sanguimancy_bloodthirst",
-	"name": "Bloodthirst",
+	"id": "sanguimancy_mastery",
+	"name": "Sanguimancy Mastery",
 	"requirements": {
 		"milestones": [],
-		"skill": 25
+		"skill": 30
 	},
 	"rewards": [
 		{
-			"passive": "sanguimancy_bloodthirst"
+			"passive": "sanguimancy_mastery"
 		}
 	],
 	"skill_id": "arendeth_sanguimancy",

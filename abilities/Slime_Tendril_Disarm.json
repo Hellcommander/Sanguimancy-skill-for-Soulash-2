@@ -4,7 +4,7 @@
 	"cooldown": 30.0,
 	"cost": {
 		"health": 0,
-		"stamina": 0
+		"stamina": 2
 	},
 	"description": "",
 	"duration": 2.0,
@@ -12,10 +12,10 @@
 		"bleed": 1,
 		"disarm": 1
 	},
-	"id": "changeme_template_Slime_tendril_Disarm",
+	"id": "arendeth_sanguimancy_Slime_tendril_Disarm",
 	"image": 8,
 	"name": "Slime Tendril Disarm",
-	"range": 0,
-	"skill": "",
+	"range": 1,
+	"skill": "arendeth_sanguimancy",
 	"target": "health"
 }

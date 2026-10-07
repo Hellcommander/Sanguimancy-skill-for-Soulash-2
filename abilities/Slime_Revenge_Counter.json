@@ -12,11 +12,10 @@
 		"ignore_party": 1,
 		"revenge_counter": 1
 	},
-	"id": "changeme_template_Slime_Revenge_Counter",
+	"id": "arendeth_sanguimancy_Slime_Revenge_Counter",
 	"image": 8,
 	"name": "Slime Revenge Counter",
 	"range": 0,
-	"skill": "",
-	"target": "self",
-	"_file": "Slime_Revenge_Counter.json"
+	"skill": "arendeth_sanguimancy",
+	"target": "self"
 }

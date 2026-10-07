@@ -2,7 +2,9 @@
 	"ability_user": [],
 	"artificial_intelligence": {
 		"allies": [
-			"7"
+			"9",
+			"4",
+			"5"
 		],
 		"allow_production": [
 			"19",
@@ -40,7 +42,7 @@
 		"tags"
 	],
 	"corpse": "322",
-	"description": "",
+	"description": "Hemoprax Adepts are clandestine blood‑mages who weaponize internal pressure and controlled bleeding to dismantle their foes from the shadows.  \nThey blend the subtle movements of a thief with the precision of a sanguimancer, slipping past defenses to deliver spells that rupture vessels, amplify bleeding, and collapse organs from within. Their magic thrives on wounds—every cut, scratch, or puncture becomes a conduit for pressure based sorcery.",
 	"dialogues": [
 		"722",
 		"77"
@@ -49,25 +51,33 @@
 		"backpack": [
 			{
 				"chance": 1.0,
-				"id": "100",
-				"name": "Javelin",
-				"stack": 10
+				"id": "205",
+				"name": "Throwing Knife",
+				"stack": 30
 			}
 		],
 		"left_hand": [
 			{
 				"chance": 1.0,
-				"id": "core_2_Ice_Rod",
-				"name": "Ice Rod",
+				"id": "core_2_Skull_Rod",
+				"name": "Skull Rod",
 				"stack": 1
 			}
 		],
 		"right_hand": [
 			{
 				"chance": 1.0,
-				"id": "100",
-				"name": "Javelin",
+				"id": "2302",
+				"name": "Runic Dagger",
 				"stack": 1
+			}
+		],
+		"second_right": [
+			{
+				"chance": 1.0,
+				"id": "205",
+				"name": "Throwing Knife",
+				"stack": 40
 			}
 		],
 		"torso_cloth": [
@@ -100,11 +110,11 @@
 		],
 		"random_frame_start": false
 	},
-	"health": 225,
+	"health": 350,
 	"humanoid": {
 		"race": "2"
 	},
-	"id": "arendeth_astral_magic_Hemoprax_Adept",
+	"id": "Hemoprax_Adept",
 	"minimap_pixel": [
 		127,
 		185,
@@ -126,17 +136,21 @@
 	"skills": {
 		"max_skill": 10,
 		"milestones": [
-			"arendeth_astral_magic_Astral_Frostline",
-			"arendeth_astral_magic_riftchain",
-			"core_2_heavy_duty",
-			"core_2_ignore_party",
-			"arendeth_astral_magic_Astral_Perception",
-			"arendeth_astral_magic_Summon_Astral_Wisp_Swarm"
+			"arendeth_sanguimancy_Bloodward",
+			"core_2_silence",
+			"core_2_intangibility",
+			"core_2_forgettable_face",
+			"arendeth_sanguimancy_Pressure_Spike",
+			"core_2_vanish",
+			"sanguimancy_crimson_jump",
+			"core_2_blind",
+			"arendeth_sanguimancy_Bloodshed_Spawn",
+			"core_2_rollback_amp"
 		],
 		"min_skill": 10,
 		"skills": [
-			"arendeth_astral_magic",
-			"core_2_leadership"
+			"core_2_thievery",
+			"arendeth_sanguimancy"
 		]
 	},
 	"stamina": {

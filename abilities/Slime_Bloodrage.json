@@ -14,11 +14,10 @@
 		"damage_to_bloodlust": 3.0,
 		"power_up": 1
 	},
-	"id": "changeme_template_Slime_Bloodrage",
+	"id": "arendeth_sanguimancy_Slime_Bloodrage",
 	"image": 7,
 	"name": "Slime Bloodrage",
 	"range": 0,
-	"skill": "",
-	"target": "",
-	"_file": "Slime_Bloodrage.json"
+	"skill": "arendeth_sanguimancy",
+	"target": "self"
 }

@@ -16,13 +16,12 @@
 		"damage_type": "poison",
 		"ignore_party": 1,
 		"stacker_count": 1,
-		"stacker_to_dot": "",
 		"turn_damage_to_stacks": "98"
 	},
-	"id": "changeme_template_Toxic_Slime_Blood_Volley",
+	"id": "arendeth_sanguimancy_Toxic_Slime_Blood_Volley",
 	"image": 7,
 	"name": "Toxic Slime Blood Volley",
 	"range": 3,
-	"skill": "",
+	"skill": "arendeth_sanguimancy",
 	"target": "health"
 }

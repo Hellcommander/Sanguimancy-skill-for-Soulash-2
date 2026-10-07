@@ -21,11 +21,10 @@
 		"stacker": "core_2_Ice_Age",
 		"stacker_count": 1
 	},
-	"id": "changeme_template_Slime_Charge",
+	"id": "arendeth_sanguimancy_Slime_Charge",
 	"image": 9,
 	"name": "Slime Charge",
 	"range": 0,
-	"skill": "",
-	"target": "",
-	"_file": "Slime_Charge.json"
+	"skill": "arendeth_sanguimancy",
+	"target": "line_health"
 }

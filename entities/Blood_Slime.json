@@ -1,18 +1,18 @@
 {
 	"ability_user": [
 		"98",
-		"changeme_template_Slime_Bloodrage",
-		"changeme_template_Slime_Challenging_Taunt",
-		"changeme_template_Slime_Revenge_Counter",
-		"changeme_template_Slime_tendril_Disarm",
-		"changeme_template_Toxic_Slime_Blood_Volley",
-		"changeme_template_Slime_Charge"
+		"arendeth_sanguimancy_Slime_Bloodrage",
+		"arendeth_sanguimancy_Slime_Challenging_Taunt",
+		"arendeth_sanguimancy_Slime_Revenge_Counter",
+		"arendeth_sanguimancy_Slime_tendril_Disarm",
+		"arendeth_sanguimancy_Toxic_Slime_Blood_Volley",
+		"arendeth_sanguimancy_Slime_Charge"
 	],
 	"armor": {
 		"acid": 16,
 		"death": 10,
 		"electricity": 6,
-		"fire": 7,
+		"fire": -5,
 		"frost": 0,
 		"holy": 0,
 		"parry": 0,
@@ -75,7 +75,7 @@
 		]
 	},
 	"experience_gainer": {
-		"exp": 3,
+		"exp": 6,
 		"level": 20
 	},
 	"fighter": {
@@ -107,14 +107,14 @@
 		"random_frame_start": true
 	},
 	"health": 120,
-	"id": "changeme_template_Blood_Slime",
+	"id": "Blood_Slime",
 	"minimap_pixel": [
 		117,
 		0,
 		0
 	],
 	"moveable": {
-		"speed": 0.8999999761581421
+		"speed": 1.399999976158142
 	},
 	"name": "Blood Slime",
 	"sight": {
@@ -124,20 +124,20 @@
 		"threesixty": true
 	},
 	"skills": {
-		"max_skill": 0,
 		"milestones": [
 			"core_2_analyze_speed",
 			"core_2_analyze_weakness",
+			"core_2_disable_consumption",
 			"core_2_find_weakness",
 			"core_2_ignore_party",
 			"core_2_strength_in_numbers",
 			"core_2_tame_animal",
-			"core_2_track_animals",
-			"core_2_disable_consumption"
+			"core_2_track_animals"
 		],
 		"skills": [
 			"core_2_hunting",
-			"core_2_leadership"
+			"core_2_leadership",
+			"arendeth_sanguimancy"
 		]
 	},
 	"stamina": {
@@ -177,6 +177,7 @@
 	},
 	"tags": [
 		"9",
-		"3"
+		"3",
+		"17"
 	]
 }

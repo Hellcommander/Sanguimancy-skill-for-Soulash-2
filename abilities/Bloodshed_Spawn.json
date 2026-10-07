@@ -9,13 +9,12 @@
 	"description": "Condense and corrupt your own blood into a living slime every time you move. The blood slimes fights for you.",
 	"duration": 10.0,
 	"effects": {
-		"damage_to_bloodlust": 1.2000000476837158,
 		"movement_speed": -0.10000000149011612,
 		"rollback": 2,
 		"summon_count": 5
 	},
 	"effects_keys": {
-		"summon_on_move": "changeme_template_Blood_Slime"
+		"summon_on_move": "Blood_Slime"
 	},
 	"id": "arendeth_sanguimancy_Bloodshed_Spawn",
 	"image": 9,

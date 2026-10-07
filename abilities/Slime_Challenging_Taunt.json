@@ -4,20 +4,19 @@
 	"cooldown": 5.0,
 	"cost": {
 		"health": 0,
-		"stamina": 0
+		"stamina": 2
 	},
-	"description": "Swap places with your target, push them aside, and retreat while leaving a blood\u2011spawn behind. The disruption enrages them for a short time.",
+	"description": "Swap places with your target, push them aside, and retreat while leaving a blood‑spawn behind. The disruption enrages them for a short time.",
 	"duration": 2.0,
 	"effects": {
 		"challenge": 1,
 		"move_to_side": 1,
 		"trade_places": 1
 	},
-	"id": "changeme_template_Slime_Challenging_Taunt",
+	"id": "arendeth_sanguimancy_Slime_Challenging_Taunt",
 	"image": 0,
 	"name": "Slime Challenging Taunt",
 	"range": 1,
-	"skill": "",
-	"target": "horizontal_line",
-	"_file": "Slime_Challenging_Taunt.json"
+	"skill": "arendeth_sanguimancy",
+	"target": "horizontal_line"
 }

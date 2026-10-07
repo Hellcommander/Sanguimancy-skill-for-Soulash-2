@@ -92,27 +92,7 @@
 			{
 				"effect": "on_attack_cast",
 				"value": "arendeth_sanguimancy_Pressure_Spike",
-				"secondary_value": 1.0
-			}
-		]
-	},
-	{
-		"id": "sanguimancy_bloodthirst",
-		"name": "Bloodthirst",
-		"image": 3,
-		"effects": [
-			{
-				"effect": "heal_on_kill",
-				"value": 0.1
-			},
-			{
-				"effect": "death_under_effect_gain_health",
-				"value": "bleed",
-				"secondary_value": 8
-			},
-			{
-				"effect": "stamina_percent_on_kill",
-				"value": 0.1
+				"secondary_value": 0.5
 			}
 		]
 	},
