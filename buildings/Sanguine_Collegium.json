@@ -7,8 +7,6 @@
   "enables": [
     "arendeth_sanguimancy"
   ],
-
-  "max": 1,
   "tier": 3,
   "type": "military",
   "group": "military",
