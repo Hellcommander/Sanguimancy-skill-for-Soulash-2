@@ -23,7 +23,7 @@
 		"damage_bonus_percent": 20.0,
 		"magic_power_damage": 1.0,
 		"stacker_count": 1,
-		"stacker": "sanguimancy_Blood_Laceration_Bleed",
+		"stacker": "Sanguimancy_Blood_Laceration_Bleed",
 		"bleed_per_damage": 0.25,
 		"ability_can_crit": 1,
 		"move_to_side": 1,

@@ -1,7 +1,7 @@
 {
 	"id": "sanguimancy_book_of_sanguimancy",
 	"name": "Book of Sanguimancy",
-	"description": "Book of Sanguimancy",
+	"description": "A bound primer on pressure, vessels and controlled bleeding. Reading it teaches Sanguimancy.",
 	"components": [
 		"craftable",
 		"glyph",

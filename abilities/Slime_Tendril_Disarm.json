@@ -6,7 +6,6 @@
 		"health": 0,
 		"stamina": 2
 	},
-	"description": "",
 	"duration": 2.0,
 	"effects": {
 		"bleed": 1,
@@ -17,5 +16,6 @@
 	"name": "Slime Tendril Disarm",
 	"range": 1,
 	"skill": "arendeth_sanguimancy",
-	"target": "health"
+	"target": "health",
+	"description": "A tendril lashes the target, causing bleeding and disarming it for 2 turns."
 }

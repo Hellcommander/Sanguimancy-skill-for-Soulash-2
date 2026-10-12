@@ -6,7 +6,6 @@
 		"health": 1,
 		"stamina": 1
 	},
-	"description": "",
 	"duration": 6.0,
 	"effects": {
 		"ability_can_crit": 1,
@@ -19,5 +18,6 @@
 	"name": "Slime Bloodrage",
 	"range": 0,
 	"skill": "arendeth_sanguimancy",
-	"target": "self"
+	"target": "self",
+	"description": "The slime flies into a bloodrage for 6 turns: a greatly raised critical hit chance, damage that feeds its bloodlust, and a surge of power."
 }

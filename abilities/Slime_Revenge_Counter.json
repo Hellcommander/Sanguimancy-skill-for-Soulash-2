@@ -6,7 +6,6 @@
 		"health": 0,
 		"stamina": 2
 	},
-	"description": "",
 	"duration": 1.0,
 	"effects": {
 		"ignore_party": 1,
@@ -17,5 +16,6 @@
 	"name": "Slime Revenge Counter",
 	"range": 0,
 	"skill": "arendeth_sanguimancy",
-	"target": "self"
+	"target": "self",
+	"description": "The slime braces for 1 turn and returns the damage it suffers. Ignores party members."
 }

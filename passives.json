@@ -9,7 +9,8 @@
 				"value": "bleed",
 				"secondary_value": 0.02
 			}
-		]
+		],
+		"description": "2% of your damage is also dealt as bleed."
 	},
 	{
 		"id": "sanguimancy_hemorrhagic_intensification",
@@ -21,7 +22,8 @@
 				"value": "bleed",
 				"secondary_value": 0.15
 			}
-		]
+		],
+		"description": "Your bleed effects are 15% stronger."
 	},
 	{
 		"id": "sanguimancy_pulse_rebound",
@@ -33,7 +35,8 @@
 				"value": "bleed",
 				"secondary_value": 2
 			}
-		]
+		],
+		"description": "Regain 2 stamina when bleed stacks are consumed."
 	},
 	{
 		"id": "sanguimancy_rupture_feedback",
@@ -45,7 +48,8 @@
 				"value": 0.01,
 				"secondary_value": "bleed"
 			}
-		]
+		],
+		"description": "Bleeding targets have a 1% chance to strike themselves."
 	},
 	{
 		"id": "sanguimancy_hemorrhagic_cascade",
@@ -62,7 +66,8 @@
 				"value": "bleed",
 				"secondary_value": 5
 			}
-		]
+		],
+		"description": "Your bleed effects are 25% stronger, and you regain 5 stamina when a bleeding target dies."
 	},
 	{
 		"id": "sanguimancy_internal_fortitude",
@@ -82,7 +87,8 @@
 				"effect": "regeneration_low_health",
 				"value": 0.2
 			}
-		]
+		],
+		"description": "Resist 25% of bleed damage, +10% health and +0.2 regeneration while at low health."
 	},
 	{
 		"id": "sanguimancy_pulse_pact",
@@ -94,7 +100,8 @@
 				"value": "arendeth_sanguimancy_Pressure_Spike",
 				"secondary_value": 0.5
 			}
-		]
+		],
+		"description": "50% chance to cast Pressure Spike when you attack."
 	},
 	{
 		"id": "sanguimancy_mastery",
@@ -126,6 +133,7 @@
 				"value": "willpower",
 				"secondary_value": 0.1
 			}
-		]
+		],
+		"description": "+10% to all attributes. Stacks with other combat-branch masteries."
 	}
 ]

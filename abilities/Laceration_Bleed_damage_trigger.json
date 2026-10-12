@@ -6,7 +6,6 @@
 		"health": 0,
 		"stamina": 0
 	},
-	"description": "",
 	"duration": 0.0,
 	"effects": {
 		"ability_can_crit": 1,
@@ -25,5 +24,6 @@
 	"name": "Laceration Bleed damage trigger",
 	"range": 0,
 	"skill": "arendeth_sanguimancy",
-	"target": "health"
+	"target": "health",
+	"description": "A trigger pulse that deals 1 true damage, scaling with Magic Power and able to critically hit. The damage is converted into Laceration Bleed stacks on the target. Ignores party members."
 }

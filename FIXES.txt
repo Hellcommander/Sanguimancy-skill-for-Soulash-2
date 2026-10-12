@@ -1,0 +1,18 @@
+ability description: arendeth_sanguimancy_Laceration_Bleed_damage_trigger
+ability description: arendeth_sanguimancy_Slime_Bloodrage
+ability description: arendeth_sanguimancy_Slime_Revenge_Counter
+ability description: arendeth_sanguimancy_Slime_tendril_Disarm
+removed older duplicate abilities/Blood_Puppetry.json (same id as sanguimancy_blood_puppetry.json)
+removed duplicate milestone 20_.json (same id as 30_Hemohydraulics_Mastery.json)
+fixed id case/prefix in 2 files (Laceration Bleed refs, Hypertension on_max_stacks_cast)
+added missing stacker sanguimancy_cardiovascular_ascension_stacker
+passive description: sanguimancy_vascular_overpressure
+passive description: sanguimancy_hemorrhagic_intensification
+passive description: sanguimancy_pulse_rebound
+passive description: sanguimancy_rupture_feedback
+passive description: sanguimancy_hemorrhagic_cascade
+passive description: sanguimancy_internal_fortitude
+passive description: sanguimancy_pulse_pact
+passive description: sanguimancy_mastery
+book description
+rewrote buildings/sanguine_collegium.json to the Astral hall's shape: race as string, dropped stray 'building' key and unverified components ritual_station/library, book id fixed

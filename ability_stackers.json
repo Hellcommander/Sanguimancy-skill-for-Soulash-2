@@ -10,10 +10,29 @@
 			}
 		],
 		"max_stacks": 15,
-		"on_max_stacks_cast": "Internal_Pressure_Buildup_Explosion",
+		"on_max_stacks_cast": "arendeth_sanguimancy_Internal_Pressure_Buildup_Explosion",
 		"max_stacks_cast_unlock": true,
 		"duration": 8,
 		"apply_caster": false,
 		"description": "Pressure surges unnaturally. Each stack intensifies internal strain building up to cap of 15 stacks where it bursts, striking nearby enemies with a retaliatory shockwave that applies stun, fear, immobilize, expose while ignoring dodge, and damage equal to the they suffered in the last 5 hits (ignores harming party members)."
+	},
+	{
+		"id": "sanguimancy_cardiovascular_ascension_stacker",
+		"name": "Cardiovascular Ascension",
+		"image": 0,
+		"effects": [
+			{
+				"effect": "attack_speed",
+				"value": -0.01
+			},
+			{
+				"effect": "damage_bonus_percent",
+				"value": 0.03
+			}
+		],
+		"max_stacks": 10,
+		"duration": 6,
+		"apply_caster": true,
+		"description": "Your heart's rhythm drives your magic: you attack 0.01 turn quicker and deal 3% more damage per stack, up to 10. Lasts 6 turns if not refreshed."
 	}
 ]

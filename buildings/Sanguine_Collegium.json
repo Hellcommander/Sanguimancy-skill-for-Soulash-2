@@ -1,77 +1,18 @@
 {
-  "id": "sanguine_collegium",
-  "name": "Sanguine Collegium",
-  "image": 39,
-  "occupation_image": 74,
-  "max": 1,
-  "enables": [
-    "arendeth_sanguimancy"
-  ],
-  "tier": 3,
-  "type": "military",
-  "group": "military",
-  "allow_player": true,
-
-  "occupation": "Hemoprax_Adept",
-  "occupation_per_race": {
-    "0": "Hemoprax_Adept",
-    "1": "Hemoprax_Adept",
-    "2": "Hemoprax_Adept",
-    "4": "Hemoprax_Adept",
-    "6": "Hemoprax_Adept",
-    "7": "Hemoprax_Adept",
-    "8": "Hemoprax_Adept",
-    "10": "Hemoprax_Adept",
-    "23": "Hemoprax_Adept",
-    "26": "Hemoprax_Adept",
-    "31": "Hemoprax_Adept",
-    "32": "Hemoprax_Adept",
-    "33": "Hemoprax_Adept"
-  },
-
-  "race": -1,
-  "building": "sanguimancy_hall",
-  "workers": [1, 6],
-
-  "produces": [
-    {
-      "takes": "craftable",
-      "entities": [
-        { "id": "Book_of_Sanguimancy", "daily": 0.01 }
-      ]
-    }
-  ],
-
-  "required_entities": [
-    {
-      "entities": ["731"],
-      "count": 4
-    },
-    {
-      "entities": ["291", "537"],
-      "count": 4
-    },
-    {
-      "component": "resting_place",
-      "count": 4
-    },
-    {
-      "component": "container",
-      "count": 6
-    },
-    {
-      "component": "light_source",
-      "count": 8
-    },
-    {
-      "component": "ritual_station",
-      "count": 2
-    },
-    {
-      "component": "library",
-      "count": 2
-    }
-  ],
-
-  "min_area": 55
+	"id": "sanguine_collegium",
+	"image": 39,
+	"max": 1,
+	"name": "Sanguine Collegium",
+	"occupation_image": 74,
+	"occupation": "Hemoprax_Adept",
+	"race": "-1",
+	"tier": 3,
+	"workers": [
+		1,
+		6
+	],
+	"allow_player": true,
+	"min_area": 55,
+	"group": "military",
+	"type": "military"
 }
