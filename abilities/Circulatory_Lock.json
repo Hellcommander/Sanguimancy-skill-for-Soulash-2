@@ -3,7 +3,7 @@
 	"name": "Circulatory Lock",
 	"animation": "sanguimancy_blood_wave_fx",
 	"image": 2,
-	"description": "Clamp the target\u2019s circulation with crushing blood pressure, rupturing tissue with magic\u2011scaled force and inducing Hypertension. The shock locks their body in place.",
+	"description": "Clamp the target's circulation with crushing blood pressure, rupturing tissue with magic-scaled force and inducing Hypertension. The shock locks their body in place.",
 	"skill": "arendeth_sanguimancy",
 	"cast_time": 0.75,
 	"cooldown": 14,

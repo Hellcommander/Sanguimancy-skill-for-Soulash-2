@@ -20,7 +20,7 @@
 		"turn_damage_to_stacks": "Sanguimancy_Blood_Laceration_Bleed"
 	},
 	"id": "arendeth_sanguimancy_Laceration_Bleed_damage_trigger",
-	"image": 1,
+	"image": 10,
 	"name": "Laceration Bleed damage trigger",
 	"range": 0,
 	"skill": "arendeth_sanguimancy",

@@ -88,20 +88,20 @@
 			{
 				"color": [
 					255,
-					0,
-					0
+					255,
+					255
 				],
 				"delay": 2000,
-				"index": 2754
+				"index": 0
 			},
 			{
 				"color": [
 					255,
-					0,
-					0
+					255,
+					255
 				],
 				"delay": 2000,
-				"index": 2755
+				"index": 1
 			}
 		],
 		"random_frame_start": true

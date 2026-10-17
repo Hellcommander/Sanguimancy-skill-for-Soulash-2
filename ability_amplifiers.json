@@ -130,7 +130,7 @@
 		"id": "sanguimancy_support_rupture_mastery",
 		"name": "Rupture Mastery",
 		"type": "offensive",
-		"image": 0,
+		"image": 8,
 		"bonuses": [
 			{
 				"effect": "bleed_per_damage",
@@ -147,7 +147,7 @@
 		"id": "sanguimancy_support_vascular_lock",
 		"name": "Thrombus",
 		"type": "utility",
-		"image": 1,
+		"image": 9,
 		"bonuses": [
 			{
 				"effect": "immobilize",
@@ -165,7 +165,7 @@
 		"id": "sanguimancy_hypertensive_burst",
 		"name": "Hypertensive Burst",
 		"type": "offensive",
-		"image": 2,
+		"image": 10,
 		"bonuses": [
 			{
 				"effect": "damage_per_stacks",
@@ -178,7 +178,7 @@
 		"id": "sanguimancy_pulse_tick",
 		"name": "Pulse Tick",
 		"type": "utility",
-		"image": 4,
+		"image": 11,
 		"bonuses": [
 			{
 				"effect": "stacker_count",
@@ -191,7 +191,7 @@
 		"id": "sanguimancy_hairline",
 		"name": "Hairline Cut",
 		"type": "offensive",
-		"image": 5,
+		"image": 12,
 		"bonuses": [
 			{
 				"effect": "bleed",
@@ -204,7 +204,7 @@
 		"id": "sanguimancy_leech_thread",
 		"name": "Leech Thread",
 		"type": "offensive",
-		"image": 6,
+		"image": 13,
 		"bonuses": [
 			{
 				"effect": "damage_as_life",
@@ -217,7 +217,7 @@
 		"id": "sanguimancy_shallow_execute",
 		"name": "Shallow Execute",
 		"type": "offensive",
-		"image": 7,
+		"image": 14,
 		"bonuses": [
 			{
 				"effect": "damage_on_missing_health",
@@ -230,7 +230,7 @@
 		"id": "sanguimancy_blood_reach",
 		"name": "Blood Reach",
 		"type": "utility",
-		"image": 0,
+		"image": 15,
 		"bonuses": [],
 		"range": 1,
 		"description": "+1 range."
@@ -239,7 +239,7 @@
 		"id": "sanguimancy_linger_pulse",
 		"name": "Linger Pulse",
 		"type": "utility",
-		"image": 1,
+		"image": 16,
 		"bonuses": [
 			{
 				"effect": "aoe_range",
@@ -253,7 +253,7 @@
 		"id": "sanguimancy_crimson_jump",
 		"name": "Crimson Jump",
 		"type": "offensive",
-		"image": 2,
+		"image": 17,
 		"bonuses": [
 			{
 				"effect": "chain",
@@ -284,7 +284,7 @@
 		"id": "sanguimancy_cardiovascular_ascension",
 		"name": "Cardiovascular Ascension",
 		"type": "utility",
-		"image": 3,
+		"image": 18,
 		"bonuses": [
 			{
 				"effect": "stacker",
@@ -299,7 +299,7 @@
 		"id": "sanguimancy_systolic_trickle",
 		"name": "Systolic Trickle",
 		"type": "utility",
-		"image": 3,
+		"image": 19,
 		"bonuses": [
 			{
 				"effect": "health_for_stamina",

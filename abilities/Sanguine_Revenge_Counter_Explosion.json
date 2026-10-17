@@ -1,12 +1,12 @@
 {
 	"animation": "sanguimancy_blood_wave_fx",
-	"cast_time": 0.0,
-	"cooldown": 0.0,
+	"cast_time": 0.5,
+	"cooldown": 6.0,
 	"cost": {
 		"health": 0,
-		"stamina": 0
+		"stamina": 10
 	},
-	"description": "Explosion triggers based on 2x + revenge counter the damage of the last 5 hits",
+	"description": "Burst the blood around the target in an explosion of true damage equal to twice the damage of the last 5 hits you have taken, plus Magic Power. Ignores your party. The finisher for a Sanguine Corruption puppet.",
 	"duration": 0.0,
 	"effects": {
 		"ability_can_crit": 1,
@@ -22,18 +22,16 @@
 		"damage_type": "true",
 		"ignore_party": 1,
 		"magic_power_damage": 1.0,
-		"revenge_counter": 2,
-		"stacker": "arendeth_sanguimancy_Laceration_Bleed_damage_trigger"
+		"revenge_counter": 2
 	},
 	"id": "arendeth_sanguimancy_Sanguine_Revenge_Counter_Explosion",
 	"image": 8,
-	"name": "Sanguine Revenge Counter Explosion",
-	"range": 1,
+	"name": "Sanguine Rupture",
+	"range": 8,
 	"skill": "arendeth_sanguimancy",
 	"slots": {
 		"offensive": 2,
 		"utility": 2
 	},
-	"target": "aoe_tile",
-	"_file": "Sanguine_Revenge_Counter_Explosion.json"
+	"target": "aoe_target"
 }

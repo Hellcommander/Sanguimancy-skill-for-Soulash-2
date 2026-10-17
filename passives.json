@@ -2,20 +2,20 @@
 	{
 		"id": "sanguimancy_vascular_overpressure",
 		"name": "Vascular Overpressure",
-		"image": 5,
+		"image": 3,
 		"effects": [
 			{
-				"effect": "damage_to_effect",
-				"value": "bleed",
-				"secondary_value": 0.02
+				"effect": "on_attack_cast",
+				"value": "arendeth_sanguimancy_Laceration_Bleed_damage_trigger",
+				"secondary_value": 0.4
 			}
 		],
-		"description": "2% of your damage is also dealt as bleed."
+		"description": "40% chance when you attack to send a pulse of Laceration Bleed into the target: the pulse's damage is converted into Laceration Bleed stacks."
 	},
 	{
 		"id": "sanguimancy_hemorrhagic_intensification",
 		"name": "Hemorrhagic Intensification",
-		"image": 6,
+		"image": 5,
 		"effects": [
 			{
 				"effect": "increase_effect_value",
@@ -28,20 +28,25 @@
 	{
 		"id": "sanguimancy_pulse_rebound",
 		"name": "Pulse Rebound",
-		"image": 8,
+		"image": 6,
 		"effects": [
 			{
 				"effect": "stamina_on_stack_consume",
-				"value": "bleed",
+				"value": "Sanguimancy_Blood_Laceration_Bleed",
 				"secondary_value": 2
+			},
+			{
+				"effect": "stamina_on_stack_consume",
+				"value": "sanguimancy_Arendeth_hypertension",
+				"secondary_value": 4
 			}
 		],
-		"description": "Regain 2 stamina when bleed stacks are consumed."
+		"description": "Regain 2 stamina whenever Laceration Bleed stacks are consumed, and 4 when Hypertension stacks are consumed."
 	},
 	{
 		"id": "sanguimancy_rupture_feedback",
 		"name": "Rupture Feedback",
-		"image": 9,
+		"image": 7,
 		"effects": [
 			{
 				"effect": "hit_self",

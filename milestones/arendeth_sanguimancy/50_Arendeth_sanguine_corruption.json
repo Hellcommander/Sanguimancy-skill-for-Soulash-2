@@ -8,6 +8,9 @@
 	"rewards": [
 		{
 			"ability": "arendeth_sanguimancy_Sanguine_Corruption"
+		},
+		{
+			"ability": "arendeth_sanguimancy_Sanguine_Revenge_Counter_Explosion"
 		}
 	],
 	"skill_id": "arendeth_sanguimancy",

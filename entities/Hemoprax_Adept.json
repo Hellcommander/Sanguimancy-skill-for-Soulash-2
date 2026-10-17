@@ -42,7 +42,7 @@
 		"tags"
 	],
 	"corpse": "322",
-	"description": "Hemoprax Adepts are clandestine blood‑mages who weaponize internal pressure and controlled bleeding to dismantle their foes from the shadows.  \nThey blend the subtle movements of a thief with the precision of a sanguimancer, slipping past defenses to deliver spells that rupture vessels, amplify bleeding, and collapse organs from within. Their magic thrives on wounds—every cut, scratch, or puncture becomes a conduit for pressure based sorcery.",
+	"description": "Hemoprax Adepts are clandestine blood-mages who weaponize internal pressure and controlled bleeding to dismantle their foes from the shadows.  \nThey blend the subtle movements of a thief with the precision of a sanguimancer, slipping past defenses to deliver spells that rupture vessels, amplify bleeding, and collapse organs from within. Their magic thrives on wounds - every cut, scratch, or puncture becomes a conduit for pressure based sorcery.",
 	"dialogues": [
 		"722",
 		"77"
@@ -100,12 +100,12 @@
 		"frames": [
 			{
 				"color": [
-					127,
-					185,
-					85
+					255,
+					255,
+					255
 				],
 				"delay": 0,
-				"index": 148
+				"index": 3
 			}
 		],
 		"random_frame_start": false

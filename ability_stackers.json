@@ -19,7 +19,7 @@
 	{
 		"id": "sanguimancy_cardiovascular_ascension_stacker",
 		"name": "Cardiovascular Ascension",
-		"image": 0,
+		"image": 1,
 		"effects": [
 			{
 				"effect": "attack_speed",

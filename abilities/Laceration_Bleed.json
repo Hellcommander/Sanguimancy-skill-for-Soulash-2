@@ -20,7 +20,7 @@
 		"magic_power_damage": 1.0
 	},
 	"id": "Sanguimancy_Blood_Laceration_Bleed",
-	"image": 1,
+	"image": 6,
 	"name": "Laceration Bleed",
 	"range": 0,
 	"skill": "arendeth_sanguimancy",
