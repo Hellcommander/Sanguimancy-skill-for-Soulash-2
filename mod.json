@@ -6,6 +6,7 @@
 		"core_2"
 	],
 	"name": "Sanguimancy",
-	"version": "2.9.3",
-	"thumbnail": "thumbnail.png"
+	"steam_publish_id": 3821942103,
+	"thumbnail": "thumbnail.png",
+	"version": "2.9.3"
 }
