@@ -3,7 +3,7 @@
 	"name": "Blood Puppetry",
 	"image": 20,
 	"animation": "120",
-	"description": "Twist the target's blood with Sanguimancy for ::damage ::damage_type damage, forcing them to strike themselves. Their self-inflicted damage becomes a magical laceration that bleeds.",
+	"description": "Twist the target's blood with Sanguimancy for ::damage ::damage_type damage, forcing them to strike themselves for ::duration turns. Their self-inflicted damage becomes a magical laceration that bleeds.",
 	"skill": "arendeth_sanguimancy",
 	"cast_time": 1.5,
 	"cooldown": 14.0,
